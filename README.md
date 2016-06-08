@@ -1,3 +1,3 @@
-Code for Neural Relation Extaction (CNN, PCNN, CNN+ATT, PCNN+ATT, ...)
+Code for Neural Relation Extraction (CNN, PCNN, CNN+ATT, PCNN+ATT, ...)
 
 Will be uploaded soon.
