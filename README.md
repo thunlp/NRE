@@ -1,4 +1,3 @@
-# NRE
-Code for ACL2016 (Neural Relation Extraction with Selective Attention over Instances)
+Code for Neural Relation Extaction (CNN, PCNN, CNN+ATT, PCNN+ATT, ...)
 
 Will be uploaded soon.
