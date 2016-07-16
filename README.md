@@ -1,4 +1,5 @@
-===== DATA =====
+DATA
+==========
 
 I provide NYT10  datasets we used for the task relation extraction  with the input format of my code in data/ directory.
 
@@ -27,19 +28,22 @@ Dataset contains six files:
 
 
 
-===== MODEL CODE =====
+CODE
+==========
 
 In the folder CNN+MAX/, CNN+ATT/, PCNN+MAX/, PCNN+ATT/:
 
 
 
-===== COMPILE =====
+COMPILE 
+==========
 
 Just type "make" in the model folder
 
 
 
-== TRAINING ==
+TRAIN
+==========
 
 For training, You need follow the step in each model folder:
 
@@ -49,7 +53,8 @@ For training, You need follow the step in each model folder:
 The training model file will be saved in folder out/
 
 
-== TESTING ==
+TEST
+==========
 
 For testing, You need follow the step in each model folder:
 
@@ -60,7 +65,8 @@ It will evaluate on pr.txt and report the precision/recall curve.
 
 
 
-==CITE==
+CITE
+==========
 
 If you use the code, you should cite the following paper:
 
