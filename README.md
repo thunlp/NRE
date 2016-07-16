@@ -70,4 +70,4 @@ CITE
 
 If you use the code, you should cite the following paper:
 
-Lin, Yankai, Shiqi Shen, Zhiyuan Liu, Huanbo Luan, and Maosong Sun. Neural Relation Extraction with Selective Attention over Instances. ACL2016 .[[pdf]](http://thunlp.org/~ssq/publications/acl2016_RE.pdf)
+Lin Yankai, Shiqi Shen, Zhiyuan Liu, Huanbo Luan, and Maosong Sun. Neural Relation Extraction with Selective Attention over Instances. ACL2016 .[[pdf]](http://thunlp.org/~ssq/publications/acl2016_RE.pdf)
