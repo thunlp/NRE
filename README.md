@@ -2,7 +2,13 @@ Neural relation extraction aims to extract relations from plain text with neural
 
 Evaluation Results
 ==========
- ![image](https://github.com/mrlyk423/figure/raw/master/tot.pdf)
+Precion/recall curves of CNN, CNN+ONE, CNN+AVE, CNN+ATT
+
+ ![image](https://github.com/mrlyk423/figure/raw/master/tot.jpg)
+
+Precion/recall curves of PCNN, PCNN+ONE, PCNN+AVE, PCNN+ATT
+ 
+  ![image](https://github.com/mrlyk423/figure/raw/master/PCNN.jpg)
  
 
 
@@ -30,7 +36,7 @@ To run our code, the dataset should be put in the folder data/ using the followi
 CODE
 ==========
 
-The source codes of various methods are put in the folders CNN+MAX/, CNN+ATT/, PCNN+MAX/, PCNN+ATT/.
+The source codes of various methods are put in the folders CNN+ONE/, CNN+ATT/, PCNN+ONE/, PCNN+ATT/.
 
 COMPILE 
 ==========
