@@ -66,7 +66,7 @@ CITE
 
 If you use the code, please cite the following paper:
 
-[Lin et al., 2016] Yankai Lin, Shiqi Shen, Zhiyuan Liu, Huanbo Luan, and Maosong Sun. Neural Relation Extraction with Selective Attention over Instances. ACL2016 .[[pdf]](http://thunlp.org/~lyk/publications/acl2016_nre.pdf)
+[Lin et al., 2016] Yankai Lin, Shiqi Shen, Zhiyuan Liu, Huanbo Luan, and Maosong Sun. Neural Relation Extraction with Selective Attention over Instances. In Proceedings of ACL.[[pdf]](http://thunlp.org/~lyk/publications/acl2016_nre.pdf)
 
 Reference
 ==========
