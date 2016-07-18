@@ -12,7 +12,7 @@ Precion/recall curves of PCNN, PCNN+ONE, PCNN+AVE, PCNN+ATT
  
 
 
-DATA
+Data
 ==========
 
 We provide NYT10  dataset we used for the task relation extraction in data/ directory. We preprocess the original data to make it satisfy the input format of our codes. The original data of NYT10 can be downloaded from:
@@ -33,17 +33,17 @@ To run our code, the dataset should be put in the folder data/ using the followi
 
 + vec.bin: the pre-train word embedding file
 
-CODE
+Codes
 ==========
 
 The source codes of various methods are put in the folders CNN+ONE/, CNN+ATT/, PCNN+ONE/, PCNN+ATT/.
 
-COMPILE 
+Compile 
 ==========
 
 Just type "make" in the corresponding folders.
 
-TRAIN
+Train
 ==========
 
 For training, you need to type the following command in each model folder:
@@ -52,7 +52,7 @@ For training, you need to type the following command in each model folder:
 
 The training model file will be saved in folder out/ .
 
-TEST
+Testing
 ==========
 
 For testing, you need to type the following command in each model folder:
@@ -61,7 +61,7 @@ For testing, you need to type the following command in each model folder:
 
 The testing result which reports the precision/recall curve  will be shown in pr.txt.
 
-CITE
+Cite
 ==========
 
 If you use the code, please cite the following paper:
