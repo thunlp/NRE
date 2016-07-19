@@ -10,8 +10,6 @@ Precion/recall curves of PCNN, PCNN+ONE, PCNN+AVE, PCNN+ATT
  
   ![image](https://github.com/mrlyk423/figure/raw/master/PCNN.jpg)
  
-
-
 Data
 ==========
 
@@ -52,7 +50,7 @@ For training, you need to type the following command in each model folder:
 
 The training model file will be saved in folder out/ .
 
-Testing
+Test
 ==========
 
 For testing, you need to type the following command in each model folder:
