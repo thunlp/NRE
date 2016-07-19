@@ -1,3 +1,6 @@
+Neural Relation Extraction (NRE)
+==========
+
 Neural relation extraction aims to extract relations from plain text with neural models, which has been the state-of-the-art methods for relation extraction. In this project, we provide our implementations of CNN [Zeng et al., 2014] and PCNN [Zeng et al.,2015] and their extended version with sentence-level attention scheme [Lin et al., 2016] .
 
 Evaluation Results
