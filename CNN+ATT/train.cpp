@@ -213,8 +213,8 @@ float train_bags(string bags_name)
 				{
 					grad[k][j]+=g1*rList[k][i]*weight[k]*matrixRelationDao[r1 * dimensionC + i]*att_W_Dao[r1][j][i];
 					matrixRelation[r1 * dimensionC + i] += g1*rList[k][i]*weight[k]*rList[k][j]*att_W_Dao[r1][j][i];
-					//if (i==j)
-					//att_W[r1][j][i] += g1*rList[k][i]*weight[k]*rList[k][j]*matrixRelationDao[r1 * dimensionC + i];
+					if (i==j)
+					  att_W[r1][j][i] += g1*rList[k][i]*weight[k]*rList[k][j]*matrixRelationDao[r1 * dimensionC + i];
 				}
 				tmp_sum += rList[k][i]*weight[k];
 			}	
@@ -224,8 +224,8 @@ float train_bags(string bags_name)
 				{
 					grad[k1][j]-=g1*tmp_sum*weight[k1]*matrixRelationDao[r1 * dimensionC + i]*att_W_Dao[r1][j][i];
 					matrixRelation[r1 * dimensionC + i] -= g1*tmp_sum*weight[k1]*rList[k1][j]*att_W_Dao[r1][j][i];
-					//if (i==j)
-					//att_W[r1][j][i] -= g1*tmp_sum*weight[k1]*rList[k1][j]*matrixRelationDao[r1 * dimensionC + i];
+					if (i==j)
+					  att_W[r1][j][i] -= g1*tmp_sum*weight[k1]*rList[k1][j]*matrixRelationDao[r1 * dimensionC + i];
 				}
 			}
 		}
