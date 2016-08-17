@@ -113,7 +113,7 @@ void* testMode(void *id )
 		map<int,int> ok;
 		ok.clear();
 		vector<vector<double> > rList;
-		int bags_size = 1;//bags_test[b[ii]].size();
+		int bags_size = bags_test[b[ii]].size();
 		for (int k=0; k<bags_size; k++)
 		{
 			int i = bags_test[b[ii]][k];
