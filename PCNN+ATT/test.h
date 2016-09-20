@@ -9,7 +9,7 @@ float ress = 0;
 
 vector<double> test(int *sentence, int *testPositionE1, int *testPositionE2, int len, vector<float>  &r) {
 		
-	for (int i = 0; i < 3 * dimensionC; i++) {
+	for (int i = 0; i < dimensionC; i++) {
 		int last = i * dimension * window;
 		int lastt = i * dimensionWPE * window;
 		float mx[3];
