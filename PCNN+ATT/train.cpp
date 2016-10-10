@@ -407,7 +407,7 @@ void train() {
 		printf("test\n");
 		test();
 		//if ((turn+1)%1==0) 
-		//	rate=rate*reduce;
+		rate=rate*reduce;
 	}
 	cout<<"Train End"<<endl;
 }

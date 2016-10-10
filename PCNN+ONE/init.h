@@ -17,7 +17,7 @@ string version = "";
 int output_model = 0;
 
 int num_threads = 10;
-int trainTimes = 25;
+int trainTimes = 15;
 float alpha = 0.02;
 float reduce = 0.98;
 int tt,tt1;

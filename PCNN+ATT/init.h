@@ -17,8 +17,8 @@ string version = "";
 float wt = 0.5;
 
 int num_threads = 12;
-int trainTimes = 25;
-float alpha = 0.02;
+int trainTimes = 15;
+float alpha = 0.03;
 float reduce = 0.98;
 int tt,tt1;
 int dimensionC = 230;//1000;
