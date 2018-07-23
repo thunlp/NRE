@@ -1,3 +1,5 @@
+New Code in Tensorflow is available at https://github.com/thunlp/OpenNRE!
+
 Neural Relation Extraction (NRE)
 ==========
 
