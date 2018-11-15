@@ -109,7 +109,6 @@ void* testMode(void *id )
 			int i = bags_test[b[ii]][k];
 			ok[testrelationList[i]]=1;
 			vector<double> score = test(testtrainLists[i],  testPositionE1[i], testPositionE2[i], testtrainLength[i], r);
-			if (k<=0)
 			for (int j = 0; j < relationTotal; j++) 
 				sum[j] = max(sum[j], score[j]);
 		}
