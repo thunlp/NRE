@@ -165,15 +165,15 @@ void init() {
 
 	f = fopen("../data/RE/test.txt", "r");	
 	while (fscanf(f,"%s",buffer)==1)  {
+		string e1 = buffer;
 		fscanf(f,"%s",buffer);
+		string e2 = buffer;
+		bags_test[e1+"\t"+e2].push_back(testheadList.size());
 		fscanf(f,"%s",buffer);
 		string head_s = (string)(buffer);
 		int head = wordMapping[(string)(buffer)];
-		string e1 = buffer;
 		fscanf(f,"%s",buffer);
 		string tail_s = (string)(buffer);
-		string e2 = buffer;
-		bags_test[e1+"\t"+e2].push_back(testheadList.size());
 		int tail = wordMapping[(string)(buffer)];
 		fscanf(f,"%s",buffer);
 		int num = relationMapping[(string)(buffer)];
